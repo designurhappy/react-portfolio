@@ -1,5 +1,6 @@
 import React from 'react';
 import ResumePdf from './AliciaRoss_Res.pdf';
+
 function Resume() {
     return (
       <section className="my-5">
