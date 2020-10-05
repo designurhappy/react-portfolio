@@ -1,26 +1,38 @@
-import React from 'react';
-function Nav() {
+import React, { useEffect } from 'react';
+
+function Nav(props) {
+  const { navItems = [], setCurrentNavItem, currentNavItem } = props;
+  useEffect(() => {
+    if (currentNavItem === 'home') {
+      document.title = 'Alicia R.';
+    } else {
+      document.title = currentNavItem.name;
+    }
+  }, [currentNavItem]);
+
   return (
-    <header>
-      <div className="flex-row">
-        <nav>
-          <ul className="flex-row">
-            <li className="mx-2">
-              <a href="#about">About me</a>
-            </li>
-            <li className="mx-2">
-              <a href="#portfolio">Portfolio</a>
-            </li>
-            <li className="mx-2">
-              <a href="#contact">Contact</a>
-            </li>
-            <li className="mx-2">
-              <a href="#resume">Resume</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <nav>
+      <ul className="flex-row">
+        {navItems.map((navItem) => (
+          <li
+            className={`mx-2 ${
+              currentNavItem.name === navItem.name && 'navActive'
+            }`}
+            key={navItem.short}
+          >
+            <a
+              href={`#${navItem.short}`}
+              onClick={() => {
+                setCurrentNavItem(navItem);
+              }}
+            >
+              {navItem.name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 }
+
 export default Nav;

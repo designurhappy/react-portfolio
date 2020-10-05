@@ -12,8 +12,8 @@ code {
     monospace;
 }
 :root {
-  --light: #e2e2e2;
-  --dark: #000000;
+  --light: black;
+  --dark: hsl(0, 0%, 99%);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
@@ -111,8 +111,8 @@ nav a {
   margin-left: var(--spacing-two);
 }
 .my-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
+  margin-top: var(--spacing-five);
+  margin-bottom: var(--spacing-five);
 }
 .my-5 {
   margin-top: var(--spacing-five);
@@ -121,6 +121,7 @@ nav a {
 
 footer {
   display: inline;
+  justify-content: center;
 }
 
 i {
@@ -128,6 +129,7 @@ i {
   color: rgb(122, 103, 206);
   margin: 10px;
   display: inline;
+  justify-content: center;
 }
 
 /* css for cards*/

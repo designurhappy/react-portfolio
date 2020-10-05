@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 function Project() {
   const [projects] = useState([
     {
@@ -7,14 +8,18 @@ function Project() {
       description: 'Dashboard',
       technologies:
         'html | css | bootstrap | js | Plotly.js | server-side APIs',
-      image: 'screen-shot-coviesearch.png',
+      image: 'Covie.jpg',
+      repo: 'https://github.com/jaaybe/covidsearch',
+      deployed:'https://jaaybe.github.io/covidsearch/'
     },
     {
       name: 'shrinko',
       title: 'SHRINKO',
       description: 'Electronic Mental Health Records',
       technologies: 'Node.js | Express.js | MySQL | Sequelize | bcrypt',
-      image: 'shrinko.jpg',
+      image: 'Shrinko.jpg',
+      repo: 'https://github.com/PetitsPoissons/admin-patient-system.git',
+      deployed:'https://shrinko.herokuapp.com/'
     },
     {
       name: 'run-buddy',
@@ -22,13 +27,8 @@ function Project() {
       description: 'Runners Website',
       technologies: 'HTML | CSS' ,
       image: 'run-buddy.jpg',
-    },
-    {
-      name: 'weather-app',
-      title: 'The Weather App',
-      description: 'World Weather Forecast Dashboard',
-      technologies: 'html | css | bootstrap | js | Moment.js | OpenWeather API',
-      image: 'screen-shot-weather-dashboard.png',
+      repo: 'https://github.com/designurhappy/run-buddy.git',
+      deployed: 'https://designurhappy.github.io/run-buddy'
     },
   ]);
   return (
