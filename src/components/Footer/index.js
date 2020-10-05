@@ -3,10 +3,10 @@ import Col from 'react-bootstrap/Col';
 // import coverImage from '../../assets/img/JULIA-030719-165119-8663.jpg';
 function Footer() {
     return (
-            <Col className="d-inline-flex justify-content-around">
+            <Col className="inline">
                 <div>
                     <a
-                        href="https://www.linkedin.com/in/motionmusic/"
+                        href="https://www.linkedin.com/in/alicia-ross-designurhappy/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -15,7 +15,7 @@ function Footer() {
                 </div>
                 <div>
                     <a
-                        href="https://github.com/jaaybe"
+                        href="https://github.com/designurhappy"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
