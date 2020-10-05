@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+
 function ContactForm() {
   const [formState, setFormState] = useState({
     name: '',
@@ -7,6 +13,7 @@ function ContactForm() {
     message: '',
   });
   const { name, email, message } = formState;
+
   const [errorMessage, setErrorMessage] = useState('');
   function handleChange(e) {
     if (e.target.name === 'email') {

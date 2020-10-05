@@ -1,24 +1,53 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Header from './components/Header';
+import About from './components/About';
+import Portfolio from './components/Project';
+import ContactForm from './components/Contact';
+import Footer from './components/Footer';
+import Resume from './components/Resume';
 
 function App() {
+  const [navItems] = useState([
+    {
+      name: 'About Me',
+      short: 'about',
+    },
+    {
+      name: 'Portfolio',
+      short: 'portfolio',
+    },
+    {
+      name: 'Contact',
+      short: 'contact',
+    },
+    {
+      name: 'Resume',
+      short: 'resume',
+    },
+  ]);
+  const [currentNavItem, setCurrentNavItem] = useState('home');
+  function displayComponent(navName) {
+    switch (navName) {
+      case 'Portfolio':
+        return <Portfolio></Portfolio>;
+      case 'Contact':
+        return <ContactForm></ContactForm>;
+      case 'Resume':
+        return <Resume></Resume>;
+      default: 
+        return <About></About>;
+    }
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header
+        navItems={navItems}
+        setCurrentNavItem={setCurrentNavItem}
+        currentNavItem={currentNavItem}
+      ></Header>
+      <main>{displayComponent(currentNavItem.name)}</main>
+      <Footer></Footer>
     </div>
   );
 }
