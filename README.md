@@ -9,6 +9,9 @@ https://github.com/designurhappy/react-portfolio.git
 ## Deployed Application
 https://github.com/designurhappy/react-portfolio 
 
+## Demonstration Video
+[React Portfolio Demonstration](./Demonstration_React-Portfolio.webm)
+
 
 ## Installation
 The following commands should be run to install dependencies: 
