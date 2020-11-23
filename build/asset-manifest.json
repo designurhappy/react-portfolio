@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.e3686ae9.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.9b3bf05d.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.9b3bf05d.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
+    "static/js/2.f1771c48.chunk.js": "/react-portfolio/static/js/2.f1771c48.chunk.js",
+    "static/js/2.f1771c48.chunk.js.map": "/react-portfolio/static/js/2.f1771c48.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.2b1d9faf330286042e17d6f292dde293.js": "/react-portfolio/precache-manifest.2b1d9faf330286042e17d6f292dde293.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.e3686ae9.chunk.css.map": "/react-portfolio/static/css/main.e3686ae9.chunk.css.map",
+    "static/js/2.f1771c48.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.f1771c48.chunk.js.LICENSE.txt",
+    "static/media/ANR.jpg": "/react-portfolio/static/media/ANR.7466cd9c.jpg",
+    "static/media/AliciaRoss_Res.pdf": "/react-portfolio/static/media/AliciaRoss_Res.3766f483.pdf",
+    "static/media/Covie.jpg": "/react-portfolio/static/media/Covie.6acf9b32.jpg",
+    "static/media/Shrinko.jpg": "/react-portfolio/static/media/Shrinko.8ca1a23e.jpg",
+    "static/media/run-buddy.jpg": "/react-portfolio/static/media/run-buddy.e728dcda.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.213b1880.js",
+    "static/js/2.f1771c48.chunk.js",
+    "static/css/main.e3686ae9.chunk.css",
+    "static/js/main.9b3bf05d.chunk.js"
+  ]
+}
