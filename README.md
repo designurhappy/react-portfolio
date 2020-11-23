@@ -1,26 +1,22 @@
-# react-portfolio
-Portfolio Deployed using React
+# React-Portfolio
+Personal Portfolio Deployed using React
   
-## Table of Contents
-* Installation
-* Usage
-* License
-* GitHub Repository
-* Questions
+ ![ScreenShot](./React-Portfolio-Screenshot.JPG)
 
- 
+## GitHub Respository
+https://github.com/designurhappy/react-portfolio.git
+
+## Deployed Application
+https://designurhappy.github.io/react-portfolio/
+
+
 ## Installation
 The following commands should be run to install dependencies: 
 * npm i 
 * npx create-react-app 
 
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-
-
-## GitHub Respository
-https://github.com/designurhappy/react-portfolio.git
 
 
 ## Questions

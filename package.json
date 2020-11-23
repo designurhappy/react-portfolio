@@ -1,4 +1,3 @@
-
 {
   "homepage": "http://designurhappy.github.io/react-portfolio",
   "name": "react-portfolio",
@@ -21,7 +20,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-    
   },
   "eslintConfig": {
     "extends": "react-app"
