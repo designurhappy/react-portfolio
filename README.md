@@ -7,7 +7,7 @@ Personal Portfolio Deployed using React
 https://github.com/designurhappy/react-portfolio.git
 
 ## Deployed Application
-https://designurhappy.github.io/react-portfolio/
+
 
 
 ## Installation
